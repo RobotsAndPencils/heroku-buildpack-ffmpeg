@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install ffmpeg"
 BUILD_DIR=$1
 VENDOR_DIR="vendor/ffmpeg/bin"
-DOWNLOAD_URL="http://ffmpeg.gusari.org/static/64bit/ffmpeg.static.64bit.latest.tar.gz"
+DOWNLOAD_URL="https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
